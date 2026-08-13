@@ -2,12 +2,6 @@
 
 A Jungian-rooted social confidence app for men who know what to say but freeze before saying it.
 
-![React Native](https://img.shields.io/badge/React%20Native-mobile-61dafb)
-![Expo](https://img.shields.io/badge/Expo-SDK%2054-000020)
-![Supabase](https://img.shields.io/badge/Supabase-auth%20%2B%20db-3ecf8e)
-![Zustand](https://img.shields.io/badge/Zustand-state-443e38)
-![Status](https://img.shields.io/badge/status-pre--beta-yellow)
-
 FILL: add 3-4 screenshots here, or a short screen recording. For a mobile app this matters more than anything else in the README. Nobody can install it to see it, so images are the only way to show the work.
 
 ---
@@ -99,63 +93,17 @@ Each archetype gets its own variant of every daily mission plus a recorded video
 
 ---
 
-## Project structure
-
-```
-├── app/           # Expo Router screens — file-based routing
-├── components/    # shared UI components
-├── constants/     # archetype definitions, mission content, theme
-├── hooks/         # custom React hooks
-├── lib/           # Supabase client and helpers
-├── store/         # Zustand stores
-├── assets/        # images, video, fonts
-├── App.js
-├── app.json       # Expo config
-└── package.json
-```
-
-FILL: adjust the folder comments to match what's actually in each. If the assessment scoring logic lives somewhere specific, point at it — that's the most interesting code in the repo and a reader won't find it on their own.
-
----
-
 ## Role
 
-FILL: This is where you say what you built. Something like: "I'm the founding engineer — I own the technical architecture and implementation, working with a product owner on content and framework design." Then name the specific things: the assessment scoring logic, the Supabase schema and RLS policies, state management, the streak system, the recap screen.
+I'm the founding engineer — I own the technical architecture and implementation, working with a product owner on content and framework design." Then name the specific things: the assessment scoring logic, the Supabase schema and RLS policies, state management, the streak system, the recap screen.
 
 Be specific about the parts that were hard. Scoring two dimensions from ten questions, or making the recap work off a variable-length completion history, are more interesting than a feature list.
 
 ---
 
-## Setup
-
-```bash
-git clone https://github.com/Mamaril-Jeremy/Social-Code-Mobile-App.git
-cd Social-Code-Mobile-App
-npm install
-```
-
-Create a `.env` at the project root:
-
-```
-EXPO_PUBLIC_SUPABASE_URL=your_supabase_url
-EXPO_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-
-Then:
-
-```bash
-npx expo start
-```
-
-Scan the QR code with the iPhone camera app, or with Expo Go on Android.
-
-FILL: a reader also needs the database to exist. Consider adding a `supabase/schema.sql` with the two table definitions and the RLS policies so someone can actually stand this up.
-
----
-
 ## Status
 
-Pre-beta. The free tier is feature complete. Premium content and payment integration are in progress.
+App will be available for download from IOS App Store and Google Play Store soon.
 
 ---
 
@@ -165,14 +113,6 @@ Pre-beta. The free tier is feature complete. Premium content and payment integra
 - Premium tier is scaffolded but not wired to payments.
 - The assessment is self-reported, so results depend on honest answers. There's no calibration against observed behavior.
 - Content is written for one audience. The archetype framing and mission design don't generalize past it without a rewrite.
-
----
-
-## Roadmap
-
-- Payment integration and premium unlock
-- Post-Day-7 experience built on BRAVE and SHIELD
-- Beta launch
 
 ---
 
