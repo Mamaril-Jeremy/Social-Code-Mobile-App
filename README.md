@@ -118,7 +118,7 @@ App will be available for download from IOS App Store and Google Play Store soon
 
 ## Tech stack
 
-**Mobile:** React Native, Expo (SDK 54), Expo Router
-**State:** Zustand
-**Backend:** Supabase (Auth, Postgres, Row Level Security)
-**Media & notifications:** expo-av, expo-notifications
+- **Mobile:** React Native, Expo (SDK 54), Expo Router
+- **State:** Zustand
+- **Backend:** Supabase (Auth, Postgres, Row Level Security)
+- **Media & notifications:** expo-av, expo-notifications
