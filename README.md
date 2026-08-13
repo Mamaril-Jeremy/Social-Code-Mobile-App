@@ -1,6 +1,6 @@
 # Social Code
 
-A Jungian-rooted social confidence app for men who know what to say but freeze before saying it.
+A Jungian-rooted social confidence app for people who know what to say but freeze before saying it.
 
 FILL: add 3-4 screenshots here, or a short screen recording. For a mobile app this matters more than anything else in the README. Nobody can install it to see it, so images are the only way to show the work.
 
