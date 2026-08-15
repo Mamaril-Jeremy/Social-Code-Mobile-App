@@ -97,7 +97,7 @@ Each archetype gets its own variant of every daily mission plus a recorded video
 
 I'm the founding engineer — I own the technical architecture and implementation, working with a product owner on content and framework design." Then name the specific things: the assessment scoring logic, the Supabase schema and RLS policies, state management, the streak system, the recap screen.
 
-Be specific about the parts that were hard. Scoring two dimensions from ten questions, or making the recap work off a variable-length completion history, are more interesting than a feature list.
+Some difficulties included making the app secure, tracking and storing the data consistently, and handling edge cases regarding user input.
 
 ---
 
