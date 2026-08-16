@@ -2,7 +2,7 @@
 
 A Jungian-rooted social confidence app for people who know what to say but freeze before saying it.
 
-**[Watch the full walkthrough video of the progress so far](https://youtube.com/shorts/KfWAbwCgHGE?feature=share)**
+**[Watch the full walkthrough (video)](https://youtu.be/5keLrlOZ4RY)**  
 ---
 
 ## The problem
